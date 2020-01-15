@@ -10,13 +10,13 @@
         <version>2.2.2.RELEASE</version>
     </parent>
 
-    <groupId>com.codekinds</groupId>
+    <groupId>io.github.kubenext.codekinds</groupId>
     <artifactId>codekinds-dependencies</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>CodeKinds Dependencies</name>
     <description>CodeKinds bill of materials</description>
-    <url>https://github.com/jhipster-dependencies</url>
+    <url>https://github.com/kubenext/codekinds-dependencies</url>
     <licenses>
         <license>
             <name>Apache License, version 2.0</name>
