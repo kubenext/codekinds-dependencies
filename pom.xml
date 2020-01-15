@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-dependencies</artifactId>
+        <version>2.2.2.RELEASE</version>
+    </parent>
+
+    <groupId>com.codekinds</groupId>
+    <artifactId>codekinds-dependencies</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <name>CodeKinds Dependencies</name>
+    <description>CodeKinds bill of materials</description>
+    <url>https://github.com/jhipster-dependencies</url>
+    <licenses>
+        <license>
+            <name>Apache License, version 2.0</name>
+            <url>https://github.com/</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+    <organization>
+        <name>CodeKinds</name>
+        <url>http://www.codekinds.com</url>
+    </organization>
+    <developers>
+        <developer>
+            <id>leegive</id>
+            <name>Shangjin Li</name>
+            <url>http://www.codekinds.com</url>
+            <organization>CodeKinds</organization>
+            <organizationUrl>http://www.codekinds.com</organizationUrl>
+        </developer>
+    </developers>
+    <scm>
+        <connection>scm:git:https://github.com/jhipster/jhipster-dependencies.git</connection>
+        <tag>master</tag>
+        <url>https://github.com/jhipster/jhipster-dependencies</url>
+    </scm>
+
+    <distributionManagement>
+        <snapshotRepository>
+            <id>ossrh</id>
+            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+        </snapshotRepository>
+    </distributionManagement>
+
+    <properties>
+        <!-- Build properties -->
+        <java.version>1.8</java.version>
+        <maven.version>3.3.9</maven.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.build.timestamp.format>yyyyMMddHHmmss</maven.build.timestamp.format>
+        <maven.compiler.source>${java.version}</maven.compiler.source>
+        <maven.compiler.target>${java.version}</maven.compiler.target>
+
+        <!-- Plugin versions -->
+
+        <!-- Dependency versions -->
+
+    </properties>
+
+    <dependencyManagement>
+
+    </dependencyManagement>
+
+    <build>
+
+    </build>
+
+</project>
